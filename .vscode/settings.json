@@ -1,0 +1,13 @@
+{
+  "python.formatting.blackArgs": ["--line-length", "80"],
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": false,
+  // "python.envFile": "${workspaceFolder}/.env",
+  "python.linting.pylintArgs": ["--load-plugins", "pylint-flask"]
+}
