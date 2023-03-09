@@ -30,7 +30,7 @@ while s <= e:
     if x < M:
         e = mid - 1
     # 떡의 양이 충분한가? -> 덜 잘라보자 -> 높이를 높인다.
-    elif x > M:
+    elif x >= M:
         answer = mid
         s = mid + 1
         
